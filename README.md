@@ -5,7 +5,11 @@ This repository contains a program written in C/C++ for playing tic-tac-toe (Xs 
 
 ## Instructions
 To run the program, follow these steps:
-
-1. Compile tic_tac_toe and game cpp files
+1. Compile the source code using a C++ compiler:
+   ```
+   g++ tic_tac_toe.cpp game.cpp -o tic-tac-toe
+   ```
 2. Run the program with the desired grid size as a command-line argument:
+   ```
    ./tic_tac_toe <grid_size>
+   ```
